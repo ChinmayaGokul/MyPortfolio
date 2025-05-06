@@ -1,45 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chinmaya Gokul - Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Chinmaya Gokul | Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header>
-    <img src="assets/profile.jpg" alt="Chinmaya Gokul" class="profile-pic"/>
-    <h1>Chinmaya Gokul Madhusudhan</h1>
-    <p>Data Analyst | Web Developer | Python Enthusiast</p>
-  </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I’m an IT professional with 5+ years of experience in data analysis, web development, and cloud-based solutions. Passionate about transforming data into meaningful insights and crafting elegant web interfaces.</p>
-  </section>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2>Chinmaya Gokul</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>🔍 ETL Pipelines with Python and SQL (AG&E)</li>
-      <li>📊 Tableau Dashboards for LMS Analytics (Schoox)</li>
-      <li>💾 Database Migration to AWS (TCS)</li>
-      <li>🌐 Web Development Projects at Volvo using PHP, JS, SQL</li>
-    </ul>
-  </section>
+    <!-- Header -->
+    <header class="header">
+        <img src="assets/profile.jpg" alt="Chinmaya Gokul" class="profile-pic"/>
+        <h1>Chinmaya Gokul Madhusudhan</h1>
+        <p>Data Analyst | Web Developer | Python Enthusiast</p>
+        <a class="resume-button" href="assets/Chinmaya Resume.pdf" target="_blank">📄 My Resume</a>
+    </header>
 
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required/>
-      <input type="email" name="email" placeholder="Your Email" required/>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate IT professional with over 5 years of experience in data analysis, database administration, and web development. 
+            My core strengths include Python, SQL, and data visualization tools like Power BI and Tableau. 
+            I have contributed to scalable business intelligence solutions and cloud migrations. 
+            Outside of work, I enjoy problem-solving and experimenting with new tech stacks.
+        </p>
+    </section>
 
-  <footer>
-    <p>© 2025 Chinmaya Gokul | <a href="https://github.com/ChinmayaGokul">GitHub</a> | <a href="https://linkedin.com/in/chinmaya-gokul">LinkedIn</a> | <a href="mailto:ichinmayagokul@gmail.com">Email</a></p>
-  </footer>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-category">
+            <h3>Data Analyst</h3>
+            <p>Python, SQL, Power BI, Tableau</p>
+        </div>
+        <div class="skill-category">
+            <h3>Database Administrator</h3>
+            <p>MySQL, Oracle, SQL Server</p>
+        </div>
+        <div class="skill-category">
+            <h3>Web Developer</h3>
+            <p>HTML, CSS, JavaScript, PHP, Flask</p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <div class="exp-block">
+            <h3>Data Analyst – AG&E Structural Engenuity</h3>
+            <ul>
+                <li>Built predictive analytic models for risk assessment.</li>
+                <li>Conducted root-cause analyses to improve process efficiency by 12%.</li>
+                <li>Designed interactive dashboards for data visualization.</li>
+                <li>Collaborated with cross-functional teams to deliver data-driven solutions.</li>
+            </ul>
+        </div>
+        <div class="exp-block">
+            <h3>Database Administrator – Tata Consultancy Services</h3>
+            <ul>
+                <li>Maintained SQL and NoSQL database environments.</li>
+                <li>Executed regular backup and restore processes.</li>
+                <li>Collaborated with developers to enhance database performance.</li>
+                <li>Documented database schema and procedures for knowledge transfer.</li>
+            </ul>
+        </div>
+        <div class="exp-block">
+            <h3>Web Developer – Volvo</h3>
+            <ul>
+                <li>Developed internal portals using PHP and JavaScript.</li>
+                <li>Automated data integration with back-end APIs.</li>
+                <li>Ensured mobile responsiveness using Bootstrap.</li>
+                <li>Delivered a workflow tool used by 150+ employees.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch, feel free to reach out via the following:</p>
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/chinmaya-gokul" target="_blank">LinkedIn</a>
+            <a href="mailto:ichinmayagokul@gmail.com">Email</a>
+            <a href="https://github.com/ChinmayaGokul" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Chinmaya Gokul</p>
+    </footer>
 </body>
 </html>
